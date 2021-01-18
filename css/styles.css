@@ -1,0 +1,28 @@
+* {
+    margin: 0; padding: 0;
+}
+body > h1,h2 {
+    text-align: center;
+}
+.container {
+    border: 1px solid black;
+}
+header {
+    width: 100%;
+    background: #ffdddd;
+    height: 10vh;
+}
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    background: #ffdddd;
+    height: 10vh;
+}
+.visible-xs {
+    display: none;
+}
+@media (max-width: 400px) {
+    .visible-xs {
+        display: block;
+    }
+}
